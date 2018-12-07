@@ -1,0 +1,33 @@
+{
+    "name": "angular_learning",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "tsc -w",
+        "tsc:aot": "ngc -p tsconfig-aot.json --prod --aot=true ",
+        "start": "concurrently \"npm run test\" \"lite-server\""
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@angular/common": "4.4.6",
+        "@angular/compiler": "4.4.6",
+        "@angular/compiler-cli": "^4.4.6",
+        "@angular/core": "4.4.6",
+        "@angular/platform-browser": "4.4.6",
+        "@angular/platform-browser-dynamic": "4.4.6",
+        "@angular/platform-server": "^4.4.6",
+        "@types/node": "6.0.46",
+        "core-js": "2.6.0",
+        "lite-server": "2.4.0",
+        "systemjs": "2.1.1",
+        "typescript": "2.2.2",
+        "zone.js": "0.8.26"
+    },
+    "devDependencies": {
+        "concurrently": "4.1.0",
+        "lite-server": "2.4.0"
+    }
+}
